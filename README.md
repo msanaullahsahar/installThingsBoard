@@ -1,2 +1,2 @@
-# installThingsBoard
-Install Thingsboard IoT Platform
+# install ThingsBoard
+Install Thingsboard IoT Platform on a Raspberry-Pi
