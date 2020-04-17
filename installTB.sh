@@ -13,11 +13,7 @@ exit 1 || return 1
 fi
 echo -e "\e[30;48;5;82m***** Welcome. Automatic Installation Begins *****\e[0m"
 sudo apt-get update -y
-sudo apt-get install whiptail -y
-sudo apt-get install dialog -y
-sudo apt-get install wget -y
-sudo apt-get install unzip -y
-sudo apt-get install curl -y
+sudo apt-get install -y whiptail dialog wget unzip curl
 # Install Open JDK 8
 echo -e "\e[30;48;5;82m*** Install Open JDK 8 ***\e[0m"
 echo 'deb http://ftp.de.debian.org/debian sid main' >> /etc/apt/sources.list
